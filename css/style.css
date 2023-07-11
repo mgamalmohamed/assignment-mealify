@@ -996,4 +996,66 @@ input[type="checkbox"] {
     font-size: 24px;
     margin-left: 20px;
   }
+
+  .hero-section-bg {
+    height: auto;
+  }
+
+  .hero-section {
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+
+  .hero-section-bg .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .header-content {
+    width: 100%;
+  }
+
+  .header-image {
+    max-width: 75%;
+  }
+
+  .chefs-pictures {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .gallery-masonry {
+    column-count: 1;
+  }
+
+  .address,
+  .email,
+  .call-us,
+  .working-hours {
+    width: 100%;
+  }
+
+  .contact-form form .info {
+    flex-direction: column;
+  }
+
+  .contact-form form .info input {
+    width: 100%;
+  }
+
+  footer .container {
+    flex-direction: column;
+  }
+
+  .footer-about div {
+    align-items: center;
+  }
+
+  .footer-about {
+    width: 100%;
+  }
 }
